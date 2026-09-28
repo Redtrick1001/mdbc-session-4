@@ -10,9 +10,9 @@ class SumOfSequenceTaskTest {
     void shouldSumToCorrectAmount() {
         SumOfSequenceTask runner = new SumOfSequenceTask();
 
-        assertEquals(runner.sumOfSequence(1, 5,1), 15);
-        assertEquals(runner.sumOfSequence(2, 6, 2), 12);
-        assertEquals(runner.sumOfSequence(3,9, 3), 18);
+        assertEquals(15, runner.sumOfSequence(1, 5,1));
+        assertEquals(12, runner.sumOfSequence(2, 6, 2));
+        assertEquals(18, runner.sumOfSequence(3,9, 3));
     }
 
     @Test

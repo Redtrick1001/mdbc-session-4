@@ -24,6 +24,6 @@ public class CalculatorTest {
         Calculator calc = new Calculator();
         int result = calc.sum(2, 3);
 
-        assertEquals(result, 5);
+        assertEquals(5, result);
     }
 }
